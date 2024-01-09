@@ -13,7 +13,7 @@ class Maze:
             ["X", " ", " ", " ", "E", " ", " ", " ", "X", "X"],
             ["X", "X", "X", "X", "X", "X", "X", "X", "X", "X"],
         ]
-        self.ply = Pos(5, 1)
+        self.ply = Pos(5, 1)#12312312
         self.end = Pos(2, 6)
         self.maze[self.ply.y][self.ply.x] = "P"
         self.maze[self.end.y][self.end.x] = "E"
